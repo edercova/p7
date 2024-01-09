@@ -3,25 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-principal{
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-
+html{
+    font-size: 62.5%;
 }
-.container{
- 
-    width: 50vw;
-    height: 20vh;
-    background-color: blue;
+header{
+    font-family: 'Oswald', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    height: 10rem;
+    background-color: aquamarine;
+    border: 1px solid black;
 }
-.container2{
-    background-color: red;
-    width: 100vh;
+header img{
+    width: 8rem;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li a{
+    font-size: 2.5rem;
+    margin: 0 1.8rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
 }
